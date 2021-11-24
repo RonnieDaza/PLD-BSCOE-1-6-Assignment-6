@@ -24,3 +24,5 @@ for integer in range(10):
     question = str(integer_firstNumber)+" "+str(operatorAdd)+" "+str(integer_secondNumber)
     # 9. Evaluate the question to find the right answer.
     answer = eval(question)
+    # 10. Add a colon and a space to format the question properly.
+    question+=": "
