@@ -32,3 +32,5 @@ for integer in range(10):
 
 # 12. Create a for loop to test whether the answer of the user is right or wrong.
 for theUserinput in questions.keys():
+    # 13. Get the user input.
+    userAnswer = input(theUserinput)
