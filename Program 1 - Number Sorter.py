@@ -16,3 +16,6 @@ def orderOfallnumbers():
             # 3. If it is true, then test if the third number is greater than the fourth number. Print the respective order.
             if thirdNumber > fourthNumber:
                 orderOfallnumbers = firstNumber, secondNumber, thirdNumber, fourthNumber
+            else:
+                # 4. If it is false, then the fourth number is greater than the third number. Print the respective order.
+                orderOfallnumbers = firstNumber, secondNumber, fourthNumber, thirdNumber
