@@ -9,3 +9,5 @@
 import random
 # 2. Create a dictionary for the questions.
 questions = {}
+# 3. Set the score to 0 first because the quiz will start at 0.
+userScore = 0
