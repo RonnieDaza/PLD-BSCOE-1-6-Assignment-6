@@ -11,3 +11,6 @@ import random
 questions = {}
 # 3. Set the score to 0 first because the quiz will start at 0.
 userScore = 0
+
+# 4. Create a for loop for the 10 random questions that will be given.
+for integer in range(10):
