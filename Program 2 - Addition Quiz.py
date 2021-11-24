@@ -18,3 +18,5 @@ for integer in range(10):
     integer_firstNumber = random.randint(0, 99)
     # 6. Define the second random number from 0 to 99 using random.randint function. 
     integer_secondNumber = random.randint(0, 99)
+    # 7. Define what operator will be used. In this case, it is +.
+    operatorAdd = "+"
