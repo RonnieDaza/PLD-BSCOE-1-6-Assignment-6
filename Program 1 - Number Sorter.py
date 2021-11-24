@@ -45,3 +45,5 @@ def orderOfallnumbers():
 # The Second Number
 # 14. If the first number is not the largest number, then test if the second number is the largest number of all.
     if secondNumber > firstNumber and secondNumber > thirdNumber and secondNumber > fourthNumber:
+        # 15. If it is true, then test if the first number is greater than the third number and the fourth number.
+        if firstNumber > thirdNumber and firstNumber > fourthNumber:
