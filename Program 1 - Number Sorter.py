@@ -146,3 +146,5 @@ def orderOfallnumbers():
 
 # 53. Call the orderOfallnumbers.
 order = orderOfallnumbers()
+# 54. Print the final output.
+print(f"The order of the numbers from highest to lowest is: {order}.")
