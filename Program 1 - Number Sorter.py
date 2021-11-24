@@ -143,3 +143,6 @@ def orderOfallnumbers():
                 orderOfallnumbers = fourthNumber, thirdNumber, secondNumber, firstNumber
             # 52. Return the orderOfallnumbers.
             return orderOfallnumbers
+
+# 53. Call the orderOfallnumbers.
+order = orderOfallnumbers()
