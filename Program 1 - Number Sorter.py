@@ -53,3 +53,5 @@ def orderOfallnumbers():
             else:
                 # 17. If it is false, then the fourth number is greater than the third number. Print the respective order.
                 orderOfallnumbers = secondNumber, firstNumber, fourthNumber, thirdNumber
+            # 18. Return the orderOfallnumbers.
+            return orderOfallnumbers
