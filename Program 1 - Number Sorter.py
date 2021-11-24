@@ -133,3 +133,8 @@ def orderOfallnumbers():
                 orderOfallnumbers = fourthNumber, secondNumber, thirdNumber, firstNumber
             # 48. Return the orderOfallnumbers.
             return orderOfallnumbers
+        else:
+            # 49. If nothing matches the previous descriptions, then the third number is the second largest number.
+            # 50. Test if the first number is greater than the second number. Display the respective order.
+            if firstNumber > secondNumber:
+                orderOfallnumbers = fourthNumber, thirdNumber, firstNumber, secondNumber
