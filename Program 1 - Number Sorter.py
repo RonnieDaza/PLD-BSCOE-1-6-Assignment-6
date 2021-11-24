@@ -11,3 +11,5 @@ def orderOfallnumbers():
 # The First Number
 #  1. Test if the first number is the largest number of all.
     if firstNumber > secondNumber and firstNumber > thirdNumber and firstNumber > fourthNumber:
+        # 2. If it is true, then test if the second number is greater than the third number and fourth number.
+        if secondNumber > thirdNumber and secondNumber > fourthNumber:
