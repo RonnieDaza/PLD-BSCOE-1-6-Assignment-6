@@ -7,3 +7,7 @@ def orderOfallnumbers():
     secondNumber = float(input("Enter the second number: "))
     thirdNumber = float(input("Enter the third number: "))
     fourthNumber = float(input("Enter the fourth number: "))
+
+# The First Number
+#  1. Test if the first number is the largest number of all.
+    if firstNumber > secondNumber and firstNumber > thirdNumber and firstNumber > fourthNumber:
