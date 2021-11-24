@@ -42,3 +42,6 @@ for theUserinput in questions.keys():
     else:
         # 16. If the user got the question wrong, there will be no addition to the score of the user. Print a statement that lets the user know that the answer is wrong.
         print("Sorry. Your answer is wrong")
+
+# 17. Print the result summary.
+print("Your overall score is "+str(userScore)+"/10. Thanks for taking this quiz.")
