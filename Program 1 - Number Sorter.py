@@ -104,3 +104,6 @@ def orderOfallnumbers():
             # 37. Test if the first number is greater than the second number. Display the respective order.
             if firstNumber > secondNumber:
                 orderOfallnumbers = thirdNumber, fourthNumber, firstNumber, secondNumber
+            else:
+                # 38. If it is false, then the second number is greater than the first number. Display the respective order.
+                orderOfallnumbers = thirdNumber, fourthNumber, secondNumber, firstNumber
