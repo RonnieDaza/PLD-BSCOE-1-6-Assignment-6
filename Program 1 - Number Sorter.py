@@ -109,3 +109,7 @@ def orderOfallnumbers():
                 orderOfallnumbers = thirdNumber, fourthNumber, secondNumber, firstNumber
             # 39. Return the orderOfallnumbers.
             return orderOfallnumbers
+
+# The Fourth Number
+# 40. If the third number is not the largest number, then test if the fourth number is the largest number of all.
+    if fourthNumber > firstNumber and fourthNumber > secondNumber and fourthNumber > firstNumber:
