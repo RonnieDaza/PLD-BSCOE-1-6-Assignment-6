@@ -22,3 +22,5 @@ for integer in range(10):
     operatorAdd = "+"
     # 8. Create the question format.
     question = str(integer_firstNumber)+" "+str(operatorAdd)+" "+str(integer_secondNumber)
+    # 9. Evaluate the question to find the right answer.
+    answer = eval(question)
