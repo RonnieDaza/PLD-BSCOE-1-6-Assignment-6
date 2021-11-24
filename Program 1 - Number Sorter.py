@@ -29,3 +29,5 @@ def orderOfallnumbers():
             else:
                 # 8. If it is false, then the fourth number is greater than the second number. Print the respective order.
                 orderOfallnumbers = firstNumber, thirdNumber, fourthNumber, secondNumber
+            # 9. Return the orderOfallnumbers.
+            return orderOfallnumbers
