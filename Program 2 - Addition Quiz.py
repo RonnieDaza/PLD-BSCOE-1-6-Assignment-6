@@ -39,3 +39,6 @@ for theUserinput in questions.keys():
         # 15. If the user got the question right, add 1 point to the score of the user. Print a statement that lets the user know that the answer is right.
         userScore+=1
         print("Congratulations! Your answer is right.")
+    else:
+        # 16. If the user got the question wrong, there will be no addition to the score of the user. Print a statement that lets the user know that the answer is wrong.
+        print("Sorry. Your answer is wrong")
