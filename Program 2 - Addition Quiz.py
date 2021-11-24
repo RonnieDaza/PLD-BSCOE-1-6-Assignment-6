@@ -7,3 +7,5 @@
 # Steps
 # 1. Import random module.
 import random
+# 2. Create a dictionary for the questions.
+questions = {}
