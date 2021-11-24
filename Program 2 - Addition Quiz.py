@@ -34,3 +34,5 @@ for integer in range(10):
 for theUserinput in questions.keys():
     # 13. Get the user input.
     userAnswer = input(theUserinput)
+    # 14. Test if the user got the question right.
+    if questions.get(theUserinput) == str(userAnswer):
