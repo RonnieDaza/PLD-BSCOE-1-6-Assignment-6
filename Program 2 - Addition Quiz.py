@@ -26,3 +26,6 @@ for integer in range(10):
     answer = eval(question)
     # 10. Add a colon and a space to format the question properly.
     question+=": "
+
+    # 11. Add the questions and answers to the dictionary up there.
+    questions.update({question:str(answer)})
