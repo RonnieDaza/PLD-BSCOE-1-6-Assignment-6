@@ -36,3 +36,6 @@ for theUserinput in questions.keys():
     userAnswer = input(theUserinput)
     # 14. Test if the user got the question right.
     if questions.get(theUserinput) == str(userAnswer):
+        # 15. If the user got the question right, add 1 point to the score of the user. Print a statement that lets the user know that the answer is right.
+        userScore+=1
+        print("Congratulations! Your answer is right.")
