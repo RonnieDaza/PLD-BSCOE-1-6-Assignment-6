@@ -112,9 +112,9 @@ def orderOfallnumbers():
 
 # The Fourth Number
 # 40. If the third number is not the largest number, then test if the fourth number is the largest number of all.
-    if fourthNumber > firstNumber and fourthNumber > secondNumber and fourthNumber > firstNumber:
+    if fourthNumber > firstNumber and fourthNumber > secondNumber and fourthNumber > thirdNumber:
         # 41. If it is true, then test if the first number is greater than the third number and the second number.
-        if firstNumber > thirdNumber and firstNumber > secondNumber:
+        if firstNumber > secondNumber and firstNumber > thirdNumber:
             # 42. If it is true, then test if the second number is greater than the third number. Display the respective order.
             if secondNumber > thirdNumber:
                 orderOfallnumbers = fourthNumber, firstNumber, secondNumber, thirdNumber
