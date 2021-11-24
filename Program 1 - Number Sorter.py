@@ -79,3 +79,5 @@ def orderOfallnumbers():
 # The Third Number
 # 27. If the second number is not the largest number, then test if the third number is the largest number of all.
     if thirdNumber > firstNumber and thirdNumber > secondNumber and thirdNumber > fourthNumber:
+        # 28. If it is true, then test if the first number is greater than the second number and fourth number.
+        if firstNumber > secondNumber and firstNumber > fourthNumber:
