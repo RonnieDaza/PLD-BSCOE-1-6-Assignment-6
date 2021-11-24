@@ -14,3 +14,5 @@ userScore = 0
 
 # 4. Create a for loop for the 10 random questions that will be given.
 for integer in range(10):
+    # 5. Define the first random number from 0 to 99 using random.randint function.
+    integer_firstNumber = random.randint(0, 99)
