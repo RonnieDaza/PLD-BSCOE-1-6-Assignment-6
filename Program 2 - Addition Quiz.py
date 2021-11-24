@@ -29,3 +29,6 @@ for integer in range(10):
 
     # 11. Add the questions and answers to the dictionary up there.
     questions.update({question:str(answer)})
+
+# 12. Create a for loop to test whether the answer of the user is right or wrong.
+for theUserinput in questions.keys():
