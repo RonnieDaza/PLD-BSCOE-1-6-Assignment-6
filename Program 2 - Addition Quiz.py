@@ -20,3 +20,5 @@ for integer in range(10):
     integer_secondNumber = random.randint(0, 99)
     # 7. Define what operator will be used. In this case, it is +.
     operatorAdd = "+"
+    # 8. Create the question format.
+    question = str(integer_firstNumber)+" "+str(operatorAdd)+" "+str(integer_secondNumber)
