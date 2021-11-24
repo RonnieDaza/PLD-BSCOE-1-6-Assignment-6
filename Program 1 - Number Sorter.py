@@ -89,3 +89,5 @@ def orderOfallnumbers():
                 orderOfallnumbers = thirdNumber, firstNumber, fourthNumber, secondNumber
             # 31. Return the orderOfallnumbers.
             return orderOfallnumbers
+        # 32. If the previous statements are false, then test if the second number is greater than the first number and the fourth number.
+        elif secondNumber > firstNumber and secondNumber > fourthNumber:
